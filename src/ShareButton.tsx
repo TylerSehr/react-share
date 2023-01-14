@@ -183,14 +183,7 @@ export default class ShareButton<LinkOptions> extends Component<Props<LinkOption
       ...rest
     } = this.props;
 
-    const newClassName = cx(
-      'react-share__ShareButton',
-      {
-        'react-share__ShareButton--disabled': !!disabled,
-        disabled: !!disabled,
-      },
-      className,
-    );
+    const newClassName = null
 
     const newStyle = resetButtonStyle
       ? {
